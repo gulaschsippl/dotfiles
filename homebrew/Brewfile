@@ -14,6 +14,8 @@ install git
 install mercurial
 install subversion
 
+install postgresql
+
 # install freetds - dependency for rubygem 'tiny_tds'
 install freetds
 
