@@ -1,1 +1,1 @@
-colorscheme delek
+colorscheme railscasts
