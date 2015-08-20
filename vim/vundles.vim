@@ -24,3 +24,4 @@ Bundle "scrooloose/nerdtree.git"
 Bundle "kien/ctrlp.vim"
 
 Bundle "mustache/vim-mustache-handlebars"
+Bundle "pangloss/vim-javascript"
