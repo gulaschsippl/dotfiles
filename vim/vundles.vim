@@ -22,3 +22,5 @@ filetype plugin indent on
 " File Navigation / Project Management
 Bundle "scrooloose/nerdtree.git"
 Bundle "kien/ctrlp.vim"
+
+Bundle "mustache/vim-mustache-handlebars"
