@@ -1,25 +1,38 @@
 # Make sure we’re using the latest Homebrew
-update
+brew update
 
 # Use most recent version of vim
-install vim --override-system-vi
+brew install vim --override-system-vi
 
-# for a sane tmux <--> OSX clipboard service
-# http://robots.thoughtbot.com/tmux-copy-paste-on-os-x-a-better-future
-install tmux
-install reattach-to-user-namespace
+# source control systems
+brew install git
+brew install git-extras
 
-# install source control systems
-install git
-install mercurial
-install subversion
+# youtube-dl and dependencies for post processing
+brew install youtube-dl
+brew install ffmpeg
 
-install postgresql
+# utilities
+brew install pwgen
+brew install ssh-copy-id
+brew install urlview
+brew install wget
+brew install wifi-password
+brew install z
 
-# install freetds - dependency for rubygem 'tiny_tds'
-install freetds
+# JavasScript related stuff
+brew install nvm
+brew install node
+brew install yarn
 
-install z
+# databases
+brew install postgresql
+brew install sqlite3
+brew install redis
+brew install freetds
+
+brew install gifify
+brew install svgo
 
 # Remove outdated versions from the cellar
-cleanup
+brew cleanup

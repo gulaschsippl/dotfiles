@@ -12,10 +12,10 @@ then
   ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)" > /tmp/homebrew-install.log
 fi
 
-# Install homebrew packages from this Brewfile
-brew bundle $DOTFILES/homebrew/Brewfile
+# Install homebrew packages from se Brewfile
+$DOTFILES/homebrew/Brewfile
 
-# Install casks
-source $DOTFILES/homebrew/Caskfile
+# Install casks from se Caskfile
+$DOTFILES/homebrew/Caskfile
 
 exit 0

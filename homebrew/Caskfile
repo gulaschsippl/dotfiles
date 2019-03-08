@@ -1,19 +1,22 @@
-# taken from https://github.com/mathiasbynens/dotfiles/blob/master/.cask
-brew tap phinze/cask
-brew install brew-cask
+brew tap caskroom/versions
 
-function installcask() {
-  brew cask install "${@}" 2> /dev/null
-}
+# developing
+brew cask macvim
+brew cask install iterm2
+brew cask install vagrant
+brew cask install virtualbox
+brew cask install vlc
 
-installcask aerofs
-installcask cord
-installcask dropbox
-installcask google-chrome
-installcask google-chrome-canary
-installcask iterm2
-installcask macvim
-installcask opera-next
-installcask skype
-installcask virtualbox
-installcask vlc
+# browsers
+brew cask install firefox
+brew cask install google-chrome
+brew cask install opera
+
+# utilities
+brew cask install cyberduck
+brew cask install slack
+# brew cask install flux
+# brew cask install gas-mask
+
+# screen saver
+brew cask install aerial
