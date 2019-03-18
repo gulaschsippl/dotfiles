@@ -9,8 +9,8 @@ brew install git
 brew install git-extras
 
 # youtube-dl and dependencies for post processing
-brew install youtube-dl
-brew install ffmpeg
+# brew install youtube-dl
+# brew install ffmpeg
 
 # utilities
 brew install pwgen
