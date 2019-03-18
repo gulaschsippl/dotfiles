@@ -68,3 +68,9 @@ do
 done
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# export PATH="/usr/local/opt/node@8/bin:$PATH"
+# export PATH="/usr/local/opt/node@4/bin:$PATH"
+# export PATH="/usr/local/opt/node@0.10/bin:$PATH"
+# export PATH="/usr/local/opt/node@8/bin:$PATH"
+# export PATH="/usr/local/opt/node@4/bin:$PATH"
+# export PATH="/usr/local/opt/sqlite/bin:$PATH"
