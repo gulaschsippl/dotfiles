@@ -13,6 +13,9 @@ brew install git-extras
 # brew install ffmpeg
 
 # utilities
+brew install asdf
+brew install coreutils
+brew install gpg
 brew install pwgen
 brew install ssh-copy-id
 brew install urlview
